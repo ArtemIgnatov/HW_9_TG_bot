@@ -107,7 +107,7 @@ internal class Program
         #endregion;
 
         #region Для выгрузки файлов
-        if (message is not null)
+        if (message.Text is not null)
         {
             if (message.Text.ToLower().Contains("покажи все"))
             {
